@@ -5,9 +5,10 @@
   .countup .timeel {
     display: inline-block;
     padding: 10px;
-    background:  rgba(0, 0, 0, 0.5);;
+    background:  rgba(0, 0, 0, 0.5);
     margin: 0;
     color:azure;
+   
     min-width: 2.6rem;
     margin-left: 1px;
     border-radius: 1px 4 4 1px;
@@ -15,45 +16,67 @@
   .countup span[class*="timeRef"] {
     border-radius: 0 4px 4px 0;
     margin-left: 0;
-    background: #422180;
-    color:azure;
+    background:azure;
+    color:black;
+    
   }
 
+
+html {
+
   
-html {background-color: black;
     text-transform: capitalize;}
           h1 { 
-              background-color: black;  
+              /*background-color: black;  */
               color: azure;
-              border:2px solid; 
+              /* border:2px solid; */
               border-radius:10px; 
               padding: 5px; 
               text-align: center;
+              opacity: 0.5;
               } 
-              .ff
+
+              h2
+              {
+
+                                
+                display: inline-block;
+                
+                border-radius: 1px 4 4 1px;
+                margin: 0;
+                color:azure;
+                
+                
+                
+              
+              }
+          
+              /* .ff {
+                
     
-             { 
-              background-color: black;  
+             {
+            background-color: black;
                
               
               
-              } 
-             
+              }  */
+             body{  
+              background-color: black;}
               .grid {
       display: grid;
       grid-template-columns: auto auto auto auto auto;
-      color: azure;
+      color:azure;
       grid-gap: 10px;
       padding: 10px;
-      background-color: rgb(0, 0, 0);
+      /*background-color: rgb(0, 0, 0);*/
     }
     
     .grid > .divs {
-      background-color: rgb(0, 0, 0);
+      /*background-color: rgb(0, 0, 0);*/
       text-align:left;
       padding: 20px 0;
       font-size: 30px;
-      border: 2px solid rgb(0, 0, 0);
+      /*border: 10px solid rgb(0, 0, 0);*/
      
        border-radius: 5px;
     
@@ -61,13 +84,22 @@ html {background-color: black;
                
            
                 /*page 2 */
+                body {
+                  background-color: rgb(0, 0, 0);
+                    background-image: url('2024_09_26_19_45_IMG_0953.jpgc');
+                    background: url(2024_09_26_19_45_IMG_0953.jpg) no-repeat center center fixed; 
+                    background-size: cover; 
+                    
+                  }
+                
                   #contenedor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: large;
     color: azure;
-    background-color: black;
+    background-color:transparent;
+    font-size: 30px;
     
   }
   #principal {
@@ -78,4 +110,24 @@ html {background-color: black;
   }
   
   
-          
+  a:link { 
+    
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+ 
+  @media (max-width: 600px) {
+    .countup countup1 {
+       width: auto;
+       margin-bottom:10px;        
+       position: relative;
+    }    
+}
