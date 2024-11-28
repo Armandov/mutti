@@ -1,0 +1,81 @@
+.countup {
+    text-align: center;
+    margin: 1px;
+  }
+  .countup .timeel {
+    display: inline-block;
+    padding: 10px;
+    background:  rgba(0, 0, 0, 0.5);;
+    margin: 0;
+    color:azure;
+    min-width: 2.6rem;
+    margin-left: 1px;
+    border-radius: 1px 4 4 1px;
+  }
+  .countup span[class*="timeRef"] {
+    border-radius: 0 4px 4px 0;
+    margin-left: 0;
+    background: #422180;
+    color:azure;
+  }
+
+  
+html {background-color: black;
+    text-transform: capitalize;}
+          h1 { 
+              background-color: black;  
+              color: azure;
+              border:2px solid; 
+              border-radius:10px; 
+              padding: 5px; 
+              text-align: center;
+              } 
+              .ff
+    
+             { 
+              background-color: black;  
+               
+              
+              
+              } 
+             
+              .grid {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      color: azure;
+      grid-gap: 10px;
+      padding: 10px;
+      background-color: rgb(0, 0, 0);
+    }
+    
+    .grid > .divs {
+      background-color: rgb(0, 0, 0);
+      text-align:left;
+      padding: 20px 0;
+      font-size: 30px;
+      border: 2px solid rgb(0, 0, 0);
+     
+       border-radius: 5px;
+    
+    }
+               
+           
+                /*page 2 */
+                  #contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: large;
+    color: azure;
+    background-color: black;
+    
+  }
+  #principal {
+    width: 50%;
+  }
+  #sidebar {
+    width: 50%;
+  }
+  
+  
+          

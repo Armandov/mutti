@@ -2,66 +2,38 @@
 <title> Ich liebe dich über alles</title>
 </head>
 <!DOCTYPE html>
-<html lang="de,en">
+<html lang="de,es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-      
-    <style>
-html {background-color: black;
-text-transform: capitalize;}
-      h1 { 
-          background-color: black;  
-          color: azure;
-          border:2px solid; 
-          border-radius:10px; 
-          padding: 5px; 
-          text-align: center;
-          } 
-          .ff
-
-         { 
-          background-color: black;  
-           
+    <link rel="stylesheet" href="style.css">
           
-          
-          } 
-         
-          .grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  color: azure;
-  grid-gap: 10px;
-  padding: 10px;
-  background-color: rgb(0, 0, 0);
-}
-
-.grid > .divs {
-  background-color: rgb(0, 0, 0);
-  text-align:left;
-  padding: 20px 0;
-  font-size: 30px;
-  border: 2px solid rgb(0, 0, 0);
- 
-   border-radius: 5px;
-
-}
-           
-       
-            
-          </style>
     <title>Tage Ohne dich</title>
   
   </head>
   <body>
+   
 
+      <!--  <a href="./blick.html"> <h1 class="SinTi"> Tage Ohne dich <span id="SinTi"></span></h1> </a>-->
+       <div class="countup" id="countup1">
+        <a href="./blick.html"><h2><span class="timeel">Tage Ohne dich </span></h2> </a>
+        <span class="timeel years">00</span>
+        <span class="timeel timeRefYears">Años</span>
+        <span class="timeel days">00</span>
+        <span class="timeel timeRefDays">Dias</span>
+        <span class="timeel hours">00</span>
+        <span class="timeel timeRefHours">Horas</span>
+        <span class="timeel minutes">00</span>
+        <span class="timeel timeRefMinutes">Minutos</span>
+        <span class="timeel seconds">00</span>
+        <span class="timeel timeRefSeconds">Segundos</span>
+      </div>
 
-       <a href="./blick.html"> <h1 class="SinTi"> Tage Ohne dich <span id="SinTi"></span></h1> </a>
-<H1 class="ff"><iframe width="320" height="160" src="https://www.youtube.com/embed/T_T34vbYrDA" title="Kategorie C   Meine Tränen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </H1>
            
-      <div class="grid">
+<div class="grid">
+    
+
        <div class="divs">
 
         <p> </p>
@@ -281,25 +253,18 @@ text-transform: capitalize;}
   una lágrima pierdo el control
   porque en ella te veo  
 </p>  
+</div>
+</div>
+<div>
+
+  <H1 class="ff"><iframe width="320" height="160" src="https://www.youtube.com/embed/T_T34vbYrDA" title="Kategorie C   Meine Tränen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </H1>
+</div>
+
+
+<script src="./js.js"></script>
 
 
 
 
-<SCript>
-
-
-
-          var fechaInicio = new Date('2024-09-23').getTime();
-          var fechaFin  = Date.now();
-          var diff = fechaFin - fechaInicio;
-          
-          console.log(diff/(1000*60*60*24) );
-                           // (1000*60*60*24) --> milisegundos -> segundos -> minutos -> horas -> días
-                           document.getElementById("SinTi").innerHTML = (diff/(1000*60*60*24) );
-          
-          
-              
-          
-          </script>
 </body>
 </html>
