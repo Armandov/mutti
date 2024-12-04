@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="./Stimmen.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+    <p>
+        Ein letzter Blick, ein letzter Kuss<br>  
+        Und ich weiß, dass du jetzt gehen musst<br> 
+        Dein Geist ist müde,die Augen schwer<br>
+        Ich fühle mich so hilflos, ich fühle mich so leer<br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein Kind"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Ich denke gern an unsere Zeit<br> 
+        Mit dir an meiner Seite war ich nie allein<br>
+        Du gabst mir Mut, du gabst mir Kraft<br> 
+        Und nach dieser schweren Zeit hast du es nun geschaft<br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein Kind"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein Kind"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Sicher <br>
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein freund"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Sicher <br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein Kind"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Sicher <br>
+        Ich höre die Stimmen im Wind<br>
+        sie sagen zu mir: 
+        "gib nicht auf mein freund"<br> 
+        Wir werden uns wieder sehen in einem neuen Leben<br>
+        Sicher <br>
+        
+              </p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+
+
+</script>
+
+</body>
+</html>
