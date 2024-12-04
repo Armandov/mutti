@@ -1,16 +1,18 @@
 .countup {
     text-align: center;
-    margin: 1px;
+    margin: 0.2px;
+    
   }
   .countup .timeel {
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
     background:  rgba(0, 0, 0, 0.5);
     margin: 0;
     color:azure;
+
    
     min-width: 2.6rem;
-    margin-left: 1px;
+    margin-left: 2px;
     border-radius: 1px 4 4 1px;
   }
   .countup span[class*="timeRef"] {
@@ -21,10 +23,8 @@
     
   }
 
-
 html {
-
-  
+    
     text-transform: capitalize;}
           h1 { 
               /*background-color: black;  */
@@ -41,7 +41,6 @@ html {
 
                                 
                 display: inline-block;
-                
                 border-radius: 1px 4 4 1px;
                 margin: 0;
                 color:azure;
@@ -68,12 +67,16 @@ html {
       color:azure;
       grid-gap: 10px;
       padding: 10px;
+      
       /*background-color: rgb(0, 0, 0);*/
     }
     
     .grid > .divs {
       /*background-color: rgb(0, 0, 0);*/
+      
       text-align:left;
+      text-shadow: 2px 2px #000000;
+      
       padding: 20px 0;
       font-size: 30px;
       /*border: 10px solid rgb(0, 0, 0);*/
@@ -86,11 +89,13 @@ html {
                 /*page 2 */
                 body {
                   background-color: rgb(0, 0, 0);
-                    background-image: url('2024_09_26_19_45_IMG_0953.jpgc');
+                    /*background-image: url('2024_09_26_19_45_IMG_0953.jpg'); */
                     background: url(2024_09_26_19_45_IMG_0953.jpg) no-repeat center center fixed; 
                     background-size: cover; 
+                  
                     
                   }
+                  
                 
                   #contenedor {
     display: flex;
@@ -100,6 +105,7 @@ html {
     color: azure;
     background-color:transparent;
     font-size: 30px;
+    text-shadow: 2px 2px #000000;
     
   }
   #principal {
@@ -109,7 +115,7 @@ html {
     width: 50%;
   }
   
-  
+  a { color: inherit; } 
   a:link { 
     
     text-decoration: none; 
@@ -122,12 +128,14 @@ html {
   } 
   a:active { 
     text-decoration: none; 
+
+    
   }
  
   @media (max-width: 600px) {
     .countup countup1 {
        width: auto;
-       margin-bottom:10px;        
+       margin-bottom:5px;        
        position: relative;
     }    
 }
