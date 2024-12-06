@@ -42,7 +42,7 @@ var diff = fechaFin - fechaInicio;
 
 console.log(diff/(1000*60*60*24) );
 
-                 // (1000*60*60*24) --> milisegundos -> segundos -> minutos -> horas -> días
+                 // Meine Mutti ist vor "drei" Tagen verstorben.(1000*60*60*24) --> milisegundos -> segundos -> minutos -> horas -> días
                  document.getElementById("SinTi").innerHTML = (diff/(1000*60*60*24) );
 
                  $("#days").text(days);
