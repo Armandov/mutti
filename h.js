@@ -20,8 +20,7 @@ const tiempoTranscurridoPreciso = (diferenciaEnMilisegundos) => {
     const segundos = Math.floor(diferenciaEnMilisegundos / milisegundosEnUnSegundo);
     diferenciaEnMilisegundos -= segundos * milisegundosEnUnSegundo;
     return { años, meses, dias, horas, minutos, segundos };
+    console.log(dias)
 }
 
 
-
-console.log(meses)
