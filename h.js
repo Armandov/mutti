@@ -23,4 +23,24 @@ const tiempoTranscurridoPreciso = (diferenciaEnMilisegundos) => {
     console.log(dias)
 }
 
+/*
+var fechaInicio = new Date('2024-09-23').getTime();
+  var fechaFin  = Date.now();
+  var diff = fechaFin - fechaInicio;
+  
+  const d = new Date();
+  let month = d.getUTCMonth();
+  
+  hoy = fechaInicio - month
+  
+  console.log(diff/(1000*60*60*24) );
+  
+                   // Meine Mutti ist vor "drei" Tagen verstorben.(1000*60*60*24) --> milisegundos -> segundos -> minutos -> horas -> días
+                   //document.getElementById("SinTi").innerHTML = (diff/(1000*60*60*24) );
+  
+                   $("#days").text(days);
+                   console.log(hoy)
+  
+  
 
+*/
